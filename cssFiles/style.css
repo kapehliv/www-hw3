@@ -1,0 +1,42 @@
+h1
+{
+  color:#ff1493; 
+  font-size:120px;
+  text-align:center;
+  font-family:"Comic Sans MS";
+  font-style:italic;
+  
+  
+}
+
+img
+{
+   position:relative;
+ 			list-style: none;
+			padding:0px 0px 0px 0px;
+			width:800px;
+			height:1090px; 
+			
+  		width: 760px;
+  		height: 350px;
+}
+
+
+h2
+{
+  color:black; 
+  font-size:13px;
+  text-align:center;
+  font-family:"Comic Sans MS";
+  font-style:italic;
+  
+}
+
+body
+{
+		text-align:center;	
+		background-color: pink;
+		
+}
+
+table.logintable{margin-left: auto; margin-right: auto;}

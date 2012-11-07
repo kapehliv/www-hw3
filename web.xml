@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE web-app
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd"> -->
+
+<web-app>
+ <servlet>
+  <servlet-name>Hello</servlet-name>
+  <servlet-class>Login</servlet-class>
+ </servlet>
+ <servlet>
+<servlet-name>one</servlet-name>
+<servlet-class>UploadImagesToMySite</servlet-class>
+</servlet>
+ <servlet>
+<servlet-name>two</servlet-name>
+<servlet-class>DisplayImages</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>three</servlet-name>
+<servlet-class>Edit</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>XMLUpload</servlet-name>
+  <servlet-class>XMLFileMaker</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>XMLRel</servlet-name>
+  <servlet-class>XmlReload</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Hello</servlet-name>
+ <url-pattern>/Login</url-pattern>
+ </servlet-mapping>
+<servlet-mapping>
+<servlet-name>one</servlet-name>
+<url-pattern>/UploadImagesToMySite</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>two</servlet-name>
+<url-pattern>/DisplayImages</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>three</servlet-name>
+<url-pattern>/Edit</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+ <servlet-name>XMLUpload</servlet-name>
+ <url-pattern>/XMLFileMaker</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>XMLRel</servlet-name>
+ <url-pattern>/XmlReload</url-pattern>
+ </servlet-mapping>
+</web-app>
